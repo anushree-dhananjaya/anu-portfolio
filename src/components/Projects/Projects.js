@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import EV_Dashboard from "../../Assets/Projects/EV_Dashboard.png";
+import InstaClone from "../../Assets/Projects/InstaClone.png";
 import Particle from "../Particle";
 import ProjectCard from "./ProjectCards";
 
@@ -22,22 +23,22 @@ function Projects() {
               isBlog={false}
               title="EV Dashboard"
               description="This interactive dashboard provides in-depth insights into the growing electric vehicle (EV) landscape in Washington, showcasing data on Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs). It includes year-wise trends, the top 10 counties, vehicle types, makes and models, all visualized in a dynamic, user-friendly Tableau interface to highlight key patterns and trends in EV ownership."
-              //ghLink="https://github.com/soumyajit4419/Chatify"
+  
               demoLink="https://public.tableau.com/app/profile/anushree.dhananjaya/viz/WashingtonEVDashboard_17376722816800/Dashboard1"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={InstaClone}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="IG DB Clone"
+              description="Desgined an Instagram Clone Database, reimagining features like user profiles, photo sharing, hashtags, and follower interactions. With advanced triggers to track unfollows and prevent self-follows, along with analytical queries for engagement insights, this project showcases dynamic database design with a creative take on managing real-world data challenges with efficiency and precision"
+              ghLink="https://github.com/anushree-dhananjaya/Insta-Clone-DB.git"
+              
             />
           </Col>
-
+ {/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
